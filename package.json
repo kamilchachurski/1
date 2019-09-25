@@ -1,0 +1,48 @@
+{
+    "name": "project-starter-kit",
+    "description": "Project Starter Kit",
+    "repository": "git@bitbucket.org:kamil-chachurski/project-starter-kit.git",
+    "author": "Kamil Chachurski",
+    "license": "UNLICENSED",
+    "private": true,
+    "browserslist": ["> 0%", "last 2 version", "not dead"],
+    "scripts": {
+        "server": "NODE_ENV=development webpack-dev-server",
+        "builder": "NODE_ENV=production webpack"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7",
+        "autoprefixer": "^9.7.3",
+        "babel-eslint": "^10.0.3",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^5.1.1",
+        "css-loader": "^3.4.1",
+        "cssnano": "^4.1.10",
+        "dotenv-webpack": "^1.7.0",
+        "eslint": "^6.8.0",
+        "eslint-loader": "^3.0.3",
+        "extract-css-chunks-webpack-plugin": "^4.3.2",
+        "file-loader": "^5.0.2",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "imagemin-gifsicle": "^6.0.1",
+        "imagemin-mozjpeg": "^8.0.0",
+        "imagemin-pngquant": "^8.0.0",
+        "imagemin-svgo": "^7.0.0",
+        "imagemin-webpack": "^5.1.1",
+        "node-sass": "^4.12.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^1.1.2",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.1",
+        "webpack-dev-server": "^3.10.1",
+        "webpack-merge": "^4.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.19.1",
+        "swiper": "^5.3.0"
+    }
+}

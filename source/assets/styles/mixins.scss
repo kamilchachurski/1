@@ -1,0 +1,29 @@
+@import 'assets/styles/variables.scss';
+
+@mixin media($size) {
+    @if ($size == 'very-small') {
+        @media (min-width: $breakpoint--very-small) {
+            @content;
+        }
+    }
+    @else if ($size == 'small') {
+        @media (min-width: $breakpoint--small) {
+            @content;
+        }
+    }
+    @else if ($size == 'medium') {
+        @media (min-width: $breakpoint--medium) {
+            @content;
+        }
+    }
+    @else if ($size == 'large') {
+        @media (min-width: $breakpoint--large) {
+            @content;
+        }
+    }
+    @else if ($size == 'very-large') {
+        @media (min-width: $breakpoint--very-large) {
+            @content;
+        }
+    }
+}
